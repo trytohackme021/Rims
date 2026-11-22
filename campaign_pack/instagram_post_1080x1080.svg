@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="warmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf7" />
+      <stop offset="100%" stop-color="#f5f0e8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="1080" height="1080" fill="url(#warmBg)" />
+
+  <!-- Outer Architectural Framing -->
+  <rect x="40" y="40" width="1000" height="1000" fill="none" stroke="#064e3b" stroke-width="3" />
+  <rect x="52" y="52" width="976" height="976" fill="none" stroke="#d6d3d1" stroke-width="1" />
+
+  <!-- Institution Eyebrow Header -->
+  <g transform="translate(80, 95)">
+    <rect x="0" y="0" width="450" height="40" rx="6" fill="#064e3b" />
+    <text x="225" y="26" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" letter-spacing="2.5">RAJASTHAN INSTITUTE OF MGMT &amp; SCIENCES</text>
+    <text x="0" y="68" fill="#78716c" font-family="'Georgia', serif" font-size="18" font-style="italic">Central Library &amp; Learning Commons</text>
+  </g>
+
+  <!-- Big Display Headline (Editorial Serif Style) -->
+  <g transform="translate(80, 235)">
+    <text x="0" y="0" fill="#1c1917" font-family="'Georgia', 'Playfair Display', serif" font-size="62" font-weight="900" letter-spacing="-1">YOUR SYLLABUS.</text>
+    <text x="0" y="70" fill="#064e3b" font-family="'Georgia', 'Playfair Display', serif" font-size="62" font-weight="900" letter-spacing="-1">FRESH OFF THE PRESS.</text>
+  </g>
+
+  <!-- Subheadline -->
+  <text x="80" y="355" fill="#44403c" font-family="'Segoe UI', Roboto, sans-serif" font-size="23" font-weight="400">
+    Stop studying from outdated books. We overhauled our stacks and unlocked night study.
+  </text>
+
+  <!-- Data Fact Callout Card -->
+  <g transform="translate(80, 410)">
+    <rect width="920" height="210" rx="12" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5" />
+    <rect x="0" y="0" width="10" height="210" rx="5" fill="#c2410c" />
+    
+    <!-- Big Stat Circle -->
+    <circle cx="100" cy="105" r="62" fill="#fff7ed" stroke="#fdba74" stroke-width="2" />
+    <text x="100" y="98" fill="#c2410c" font-family="'Georgia', serif" font-size="36" font-weight="900" text-anchor="middle">42%</text>
+    <text x="100" y="125" fill="#9a3412" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">PRE-2015</text>
+    
+    <!-- Callout Text -->
+    <text x="195" y="65" fill="#064e3b" font-family="'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="bold" letter-spacing="1">CAMPUS AUDIT BENCHMARK:</text>
+    <text x="195" y="102" fill="#1c1917" font-family="'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="500">
+      42% of older books recorded &lt;1.4 checkouts. We heard your voice!
+    </text>
+    
+    <!-- Vector Arrow + Solution Text -->
+    <g transform="translate(195, 126)">
+      <circle cx="14" cy="14" r="14" fill="#ffedd5" />
+      <path d="M9 14h10M15 9l5 5-5 5" stroke="#c2410c" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="38" y="21" fill="#c2410c" font-family="'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="bold">
+        100+ brand-new 2024 syllabus editions stocked &amp; hours extended to 9:00 PM.
+      </text>
+    </g>
+  </g>
+
+  <!-- Feature Grid (3 Minimalist Tiles) -->
+  <g transform="translate(80, 665)">
+    <!-- Feature 1: Course Reserve -->
+    <g transform="translate(0, 0)">
+      <rect width="285" height="170" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5" />
+      <circle cx="48" cy="46" r="24" fill="#ecfdf5" />
+      <!-- Vector Book Icon -->
+      <path d="M40 38v16c2.5-1.5 5.5-2 8-2s5.5.5 8 2V38c-2.5-1.5-5.5-2-8-2s-5.5.5-8 2z" stroke="#064e3b" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M48 38v14" stroke="#064e3b" stroke-width="1.5" />
+      <text x="24" y="100" fill="#064e3b" font-family="'Georgia', serif" font-size="18" font-weight="bold">Course Reserve Vault</text>
+      <text x="24" y="128" fill="#78716c" font-family="'Segoe UI', Roboto, sans-serif" font-size="13.5">
+        <tspan x="24" dy="0">Prescribed 2024 syllabus</tspan>
+        <tspan x="24" dy="18">textbooks always in stock</tspan>
+      </text>
+    </g>
+
+    <!-- Feature 2: Night Hours -->
+    <g transform="translate(315, 0)">
+      <rect width="285" height="170" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5" />
+      <circle cx="48" cy="46" r="24" fill="#fff7ed" />
+      <!-- Vector Moon Icon -->
+      <path d="M53 47a9 9 0 1 1-8-8 7 7 0 0 0 8 8z" fill="#c2410c" />
+      <text x="24" y="100" fill="#c2410c" font-family="'Georgia', serif" font-size="18" font-weight="bold">Open Until 9:00 PM</text>
+      <text x="24" y="128" fill="#78716c" font-family="'Segoe UI', Roboto, sans-serif" font-size="13.5">
+        <tspan x="24" dy="0">Dedicated evening hours</tspan>
+        <tspan x="24" dy="18">after practicals conclude</tspan>
+      </text>
+    </g>
+
+    <!-- Feature 3: Ideation Pods -->
+    <g transform="translate(630, 0)">
+      <rect width="285" height="170" rx="10" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5" />
+      <circle cx="48" cy="46" r="24" fill="#ecfdf5" />
+      <!-- Vector Power / Bolt Icon -->
+      <polygon points="49 34 40 46 47 46 46 56 56 43 48 43 49 34" fill="#064e3b" />
+      <text x="24" y="100" fill="#064e3b" font-family="'Georgia', serif" font-size="18" font-weight="bold">Ideation Study Pods</text>
+      <text x="24" y="128" fill="#78716c" font-family="'Segoe UI', Roboto, sans-serif" font-size="13.5">
+        <tspan x="24" dy="0">Mobile boards, Wi-Fi</tspan>
+        <tspan x="24" dy="18">&amp; laptop power stations</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Bottom CTA Bar -->
+  <g transform="translate(80, 880)">
+    <rect width="920" height="95" rx="10" fill="#064e3b" />
+    <text x="460" y="58" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="21" font-weight="bold" text-anchor="middle" letter-spacing="1">
+      CLAIM YOUR STUDY POD TODAY &#8226; WEEKDAYS 08:00 AM TO 09:00 PM
+    </text>
+  </g>
+</svg>

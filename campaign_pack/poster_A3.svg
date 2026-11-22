@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1414" width="1000" height="1414">
+  <defs>
+    <linearGradient id="posterPaper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fdfbf7" />
+      <stop offset="100%" stop-color="#f5f0e6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1000" height="1414" fill="url(#posterPaper)" />
+
+  <!-- Bauhaus Border Structure -->
+  <rect x="45" y="45" width="910" height="1324" fill="none" stroke="#064e3b" stroke-width="4" />
+  <rect x="55" y="55" width="890" height="1304" fill="none" stroke="#e7e5e4" stroke-width="1.5" />
+
+  <!-- Top Institutional Bar -->
+  <g transform="translate(80, 95)">
+    <text x="0" y="20" fill="#064e3b" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="bold" letter-spacing="3.5">RAJASTHAN INSTITUTE OF MANAGEMENT &amp; SCIENCES</text>
+    <text x="0" y="44" fill="#78716c" font-family="'Georgia', serif" font-size="13" font-style="italic">Central Library &amp; Academic Information Services</text>
+    <line x1="0" y1="60" x2="840" y2="60" stroke="#064e3b" stroke-width="1.5" />
+  </g>
+
+  <!-- Main Display Headline (Bauhaus Style Headline) -->
+  <g transform="translate(80, 205)">
+    <rect x="0" y="0" width="280" height="34" fill="#c2410c" rx="4" />
+    <text x="140" y="23" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" letter-spacing="2">NEW SEMESTER INITIATIVE</text>
+
+    <text x="0" y="105" fill="#1c1917" font-family="'Georgia', 'Playfair Display', serif" font-size="64" font-weight="900" letter-spacing="-1.5">RECLAIM YOUR</text>
+    <text x="0" y="175" fill="#064e3b" font-family="'Georgia', 'Playfair Display', serif" font-size="64" font-weight="900" letter-spacing="-1.5">STUDY SPAN.</text>
+  </g>
+
+  <!-- Subheadline -->
+  <text x="80" y="435" fill="#44403c" font-family="'Georgia', serif" font-size="21" font-style="italic">
+    Labs end at 4:30 PM. Your library hours shouldn't terminate at 5:00 PM.
+  </text>
+
+  <!-- Verified Data Point Banner -->
+  <g transform="translate(80, 480)">
+    <rect width="840" height="165" rx="10" fill="#ffffff" stroke="#064e3b" stroke-width="2" />
+    <circle cx="85" cy="82" r="50" fill="#fff7ed" stroke="#c2410c" stroke-width="2" />
+    <text x="85" y="92" fill="#c2410c" font-family="'Georgia', serif" font-size="34" font-weight="bold" text-anchor="middle">74%</text>
+
+    <text x="165" y="50" fill="#064e3b" font-family="'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="bold" letter-spacing="1">
+      CAMPUS USAGE AUDIT FACT:
+    </text>
+    <text x="165" y="80" fill="#1c1917" font-family="'Segoe UI', Roboto, sans-serif" font-size="17">
+      Visits collapsed by 74% after 3:30 PM because senior labs ran late.
+    </text>
+    
+    <!-- Vector Arrow + Text -->
+    <g transform="translate(165, 102)">
+      <circle cx="12" cy="12" r="12" fill="#ffedd5" />
+      <path d="M8 12h8M13 8l4 4-4 4" stroke="#c2410c" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+      <text x="32" y="18" fill="#c2410c" font-family="'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="bold">
+        We responded! Library doors are now open until 9:00 PM every weekday.
+      </text>
+    </g>
+  </g>
+
+  <!-- The 3 Core Academic Pillars (3 Columns with perfect text wrapping) -->
+  <g transform="translate(80, 680)">
+    <!-- Col 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="260" height="275" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5" />
+      <circle cx="48" cy="48" r="22" fill="#ecfdf5" />
+      <!-- Vector Book Icon -->
+      <path d="M40 40v16c2.5-1.5 5.5-2 8-2s5.5.5 8 2V40c-2.5-1.5-5.5-2-8-2s-5.5.5-8 2z" stroke="#064e3b" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M48 40v14" stroke="#064e3b" stroke-width="1.5" />
+      <text x="25" y="112" fill="#064e3b" font-family="'Georgia', serif" font-size="19" font-weight="bold">Course Reserve</text>
+      <text x="25" y="136" fill="#064e3b" font-family="'Georgia', serif" font-size="19" font-weight="bold">Textbook Vault</text>
+      <text x="25" y="172" fill="#78716c" font-family="'Segoe UI', Roboto, sans-serif" font-size="13">
+        <tspan x="25" dy="0">Guaranteed 5 copies of 2024</tspan>
+        <tspan x="25" dy="19">prescribed textbooks for all</tspan>
+        <tspan x="25" dy="19">Management, Computing &amp;</tspan>
+        <tspan x="25" dy="19">Commerce course papers.</tspan>
+      </text>
+    </g>
+
+    <!-- Col 2 -->
+    <g transform="translate(290, 0)">
+      <rect width="260" height="275" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5" />
+      <circle cx="48" cy="48" r="22" fill="#fff7ed" />
+      <!-- Vector Moon Icon -->
+      <path d="M53 49a9 9 0 1 1-8-8 7 7 0 0 0 8 8z" fill="#c2410c" />
+      <text x="25" y="112" fill="#c2410c" font-family="'Georgia', serif" font-size="19" font-weight="bold">Extended Study</text>
+      <text x="25" y="136" fill="#c2410c" font-family="'Georgia', serif" font-size="19" font-weight="bold">Until 9:00 PM</text>
+      <text x="25" y="172" fill="#78716c" font-family="'Segoe UI', Roboto, sans-serif" font-size="13">
+        <tspan x="25" dy="0">Study without rush after lab</tspan>
+        <tspan x="25" dy="19">practicals. Safe, lit space</tspan>
+        <tspan x="25" dy="19">staffed by paid graduate</tspan>
+        <tspan x="25" dy="19">student desk mentors.</tspan>
+      </text>
+    </g>
+
+    <!-- Col 3 -->
+    <g transform="translate(580, 0)">
+      <rect width="260" height="275" rx="8" fill="#ffffff" stroke="#e7e5e4" stroke-width="1.5" />
+      <circle cx="48" cy="48" r="22" fill="#f0f9ff" />
+      <!-- Vector Power / Bolt Icon -->
+      <polygon points="49 36 40 48 47 48 46 58 56 45 48 45 49 36" fill="#0284c7" />
+      <text x="25" y="112" fill="#064e3b" font-family="'Georgia', serif" font-size="19" font-weight="bold">Collaborative</text>
+      <text x="25" y="136" fill="#064e3b" font-family="'Georgia', serif" font-size="19" font-weight="bold">Ideation Pods</text>
+      <text x="25" y="172" fill="#78716c" font-family="'Segoe UI', Roboto, sans-serif" font-size="13">
+        <tspan x="25" dy="0">Equipped with mobile boards,</tspan>
+        <tspan x="25" dy="19">power hubs at every seat,</tspan>
+        <tspan x="25" dy="19">and gigabit campus-wide</tspan>
+        <tspan x="25" dy="19">Wi-Fi connectivity.</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- Big Call to Action Card -->
+  <g transform="translate(80, 995)">
+    <rect width="840" height="195" rx="10" fill="#064e3b" />
+    
+    <text x="50" y="62" fill="#ffffff" font-family="'Georgia', serif" font-size="26" font-weight="bold">
+      BORROW YOUR 2024 TEXTBOOK TODAY
+    </text>
+    <text x="50" y="100" fill="#a7f3d0" font-family="'Segoe UI', Roboto, sans-serif" font-size="18">
+      Visit the 1st Floor Reserve Desk &#8226; Present your Student Smart Card
+    </text>
+    
+    <g transform="translate(50, 130)">
+      <!-- Vector Map Pin -->
+      <path d="M6 1C3.8 1 2 2.8 2 5c0 3 4 7.5 4 7.5S10 8 10 5c0-2.2-1.8-4-4-4zm0 5.5C5.2 6.5 4.5 5.8 4.5 5S5.2 3.5 6 3.5 7.5 4.2 7.5 5 6.8 6.5 6 6.5z" fill="#f5f0e6" transform="scale(1.3) translate(0, 0)" />
+      <text x="22" y="13" fill="#f5f0e6" font-family="'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="bold">
+        Central Library Building &#8226; Mon–Fri 08:00 to 21:00 &#8226; Sat 09:30 to 16:30
+      </text>
+    </g>
+
+    <!-- QR Code Minimalist Visual -->
+    <g transform="translate(685, 30)">
+      <rect width="130" height="135" rx="8" fill="#ffffff" />
+      <rect x="15" y="15" width="35" height="35" fill="#064e3b" />
+      <rect x="80" y="15" width="35" height="35" fill="#064e3b" />
+      <rect x="15" y="80" width="35" height="35" fill="#064e3b" />
+      <rect x="25" y="25" width="15" height="15" fill="#ffffff" />
+      <rect x="90" y="25" width="15" height="15" fill="#ffffff" />
+      <rect x="25" y="90" width="15" height="15" fill="#ffffff" />
+      <rect x="60" y="60" width="15" height="15" fill="#064e3b" />
+      <rect x="85" y="75" width="25" height="10" fill="#064e3b" />
+      <rect x="65" y="95" width="35" height="15" fill="#064e3b" />
+      <text x="65" y="125" fill="#064e3b" font-family="'Segoe UI', sans-serif" font-size="9" font-weight="bold" text-anchor="middle">SCAN CATALOG</text>
+    </g>
+  </g>
+
+  <!-- Footer Seal -->
+  <text x="500" y="1320" fill="#78716c" font-family="'Georgia', serif" font-size="13" font-style="italic" text-anchor="middle">
+    Rajasthan Institute of Management &amp; Sciences &#8226; Apex Advisory Task Force 2026 &#8226; library@rims.edu.in
+  </text>
+</svg>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Awareness Collateral - RIMS Knowledge Commons</title>
+    <style>
+        :root {
+            --bg-canvas: #fcfaf7;
+            --surface-card: #ffffff;
+            --border-subtle: #e7e5e4;
+            --brand-primary: #064e3b;
+            --brand-accent: #c2410c;
+            --text-heading: #1c1917;
+            --text-body: #44403c;
+            --text-muted: #78716c;
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-canvas);
+            color: var(--text-body);
+            margin: 0;
+            padding: 32px 24px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .top-nav {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 24px;
+            font-size: 14px;
+        }
+        .top-nav a {
+            color: var(--brand-primary);
+            text-decoration: none;
+            font-weight: 700;
+            padding: 6px 14px;
+            border-radius: 6px;
+            background: #ffffff;
+            border: 1px solid var(--border-subtle);
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+            transition: all 0.2s;
+        }
+        .top-nav a:hover {
+            background: var(--brand-primary);
+            color: #ffffff;
+        }
+        .nav-sep { color: var(--text-muted); }
+
+        .banner {
+            border-bottom: 2px solid var(--brand-primary);
+            padding-bottom: 20px;
+            margin-bottom: 32px;
+        }
+        .banner-tag {
+            display: inline-block;
+            background: #ecfdf5;
+            color: var(--brand-primary);
+            border: 1px solid #a7f3d0;
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            padding: 4px 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .banner h1 {
+            font-family: "Georgia", serif;
+            font-size: 30px;
+            color: var(--text-heading);
+            margin: 0 0 8px 0;
+        }
+        .banner p {
+            color: var(--text-muted);
+            margin: 0;
+            font-size: 15px;
+        }
+
+        .showcase-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 36px;
+        }
+        @media (max-width: 960px) {
+            .showcase-grid { grid-template-columns: 1fr; }
+        }
+        .item-card {
+            background: var(--surface-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 28px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            display: flex;
+            flex-direction: column;
+        }
+        .item-card h2 {
+            font-family: "Georgia", serif;
+            font-size: 20px;
+            color: var(--brand-primary);
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+        .meta-line {
+            font-size: 13.5px;
+            margin-bottom: 6px;
+            color: var(--text-body);
+        }
+        .meta-line strong { color: var(--text-heading); }
+        .visual-frame {
+            background: #f5f0e8;
+            border: 1px solid #e7e5e4;
+            border-radius: 8px;
+            padding: 16px;
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 480px;
+        }
+        .visual-frame object {
+            max-width: 100%;
+            max-height: 540px;
+            border-radius: 6px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+        }
+        .btn-view {
+            display: inline-block;
+            background: var(--brand-primary);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 18px;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 700;
+            text-align: center;
+            transition: all 0.2s;
+            margin-top: auto;
+        }
+        .btn-view:hover {
+            background: #042f2e;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <nav class="top-nav">
+        <a href="../index.html">← Master Portal</a>
+        <span class="nav-sep">•</span>
+        <a href="../deck/gamma_presentation_deck.html">📑 Executive Slide Deck</a>
+        <a href="../analysis/analysis_dashboard.html">📊 Analytics Dashboard</a>
+    </nav>
+
+    <div class="banner">
+        <span class="banner-tag">Deliverable 4: Campaign Pack</span>
+        <h1>Multi-Channel Awareness Campaign: Social &amp; Concourse Print</h1>
+        <p>Curated promotional collateral communicating the extended 08:00–21:00 hours, 2024 Course Reserve Vault, and collaborative study pods.</p>
+    </div>
+
+    <div class="showcase-grid">
+        <!-- Asset 1: Instagram Post -->
+        <div class="item-card">
+            <h2>1. Instagram Post (1080 × 1080 px Square)</h2>
+            <div class="meta-line"><strong>Primary Message:</strong> "Your Syllabus. Fresh Off The Press."</div>
+            <div class="meta-line"><strong>Audit Data Benchmark:</strong> <em>"42% of older holdings averaged &lt;1.4 checkouts. Stocked 2024 editions &amp; open until 9:00 PM!"</em></div>
+            <div class="meta-line"><strong>Call to Action:</strong> Claim your study pod tonight &bull; Weekdays 08:00 to 21:00.</div>
+            
+            <div class="visual-frame">
+                <object type="image/svg+xml" data="instagram_post_1080x1080.svg"></object>
+            </div>
+            <a href="instagram_post_1080x1080.html" class="btn-view" target="_blank">Open Fullscreen Instagram Asset ↗</a>
+        </div>
+
+        <!-- Asset 2: A3 Poster -->
+        <div class="item-card">
+            <h2>2. Campus Concourse Poster (A3 Portrait)</h2>
+            <div class="meta-line"><strong>Primary Message:</strong> "Reclaim Your Study Span."</div>
+            <div class="meta-line"><strong>Audit Data Benchmark:</strong> <em>"Turnstile audit showed visits plunged 74% after 3:30 PM due to labs. Extended to 9:00 PM!"</em></div>
+            <div class="meta-line"><strong>Call to Action:</strong> Check out 2024 syllabus books from the 1st Floor Course Reserve Vault today.</div>
+            
+            <div class="visual-frame">
+                <object type="image/svg+xml" data="poster_A3.svg"></object>
+            </div>
+            <a href="poster_A3.html" class="btn-view" target="_blank">Open Fullscreen A3 Poster Asset ↗</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
