@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Utilization & Portfolio Dashboard - RIMS Central Library</title>
+    <style>
+        :root {
+            --bg-canvas: #fcfaf7;
+            --surface-card: #ffffff;
+            --border-subtle: #e7e5e4;
+            --brand-primary: #064e3b;
+            --brand-accent: #c2410c;
+            --brand-gold: #b45309;
+            --text-heading: #1c1917;
+            --text-body: #44403c;
+            --text-muted: #78716c;
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-canvas);
+            color: var(--text-body);
+            margin: 0;
+            padding: 32px 24px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .top-nav {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 24px;
+            font-size: 14px;
+        }
+        .top-nav a {
+            color: var(--brand-primary);
+            text-decoration: none;
+            font-weight: 700;
+            padding: 6px 14px;
+            border-radius: 6px;
+            background: #ffffff;
+            border: 1px solid var(--border-subtle);
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+            transition: all 0.2s;
+        }
+        .top-nav a:hover {
+            background: var(--brand-primary);
+            color: #ffffff;
+        }
+        .nav-sep { color: var(--text-muted); }
+
+        .banner {
+            background: linear-gradient(135deg, #064e3b 0%, #042f2e 100%);
+            color: #ffffff;
+            padding: 36px 40px;
+            border-radius: 14px;
+            margin-bottom: 28px;
+            box-shadow: 0 4px 14px rgba(6, 78, 59, 0.15);
+        }
+        .banner-tag {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.15);
+            color: #6ee7b7;
+            font-size: 12px;
+            font-weight: 800;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            padding: 4px 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .banner h1 {
+            margin: 0 0 8px 0;
+            font-size: 28px;
+            font-family: "Georgia", serif;
+            font-weight: 700;
+        }
+        .banner p {
+            margin: 0;
+            opacity: 0.9;
+            font-size: 15px;
+        }
+
+        .metric-ribbon {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+        .metric-tile {
+            background: var(--surface-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+            border-top: 4px solid var(--brand-primary);
+        }
+        .metric-tile.alert { border-top-color: var(--brand-accent); }
+        .metric-tile.gold { border-top-color: var(--brand-gold); }
+        .metric-title {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            font-weight: 700;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+        }
+        .metric-number {
+            font-size: 26px;
+            font-weight: 800;
+            color: var(--text-heading);
+        }
+        .metric-detail {
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        .figure-card {
+            background: var(--surface-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 28px;
+            margin-bottom: 32px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+        }
+        .figure-card h2 {
+            font-family: "Georgia", serif;
+            font-size: 21px;
+            color: var(--brand-primary);
+            margin: 0 0 16px 0;
+            border-bottom: 1px solid #f5f5f4;
+            padding-bottom: 12px;
+        }
+        .chart-frame {
+            background: #fafaf9;
+            border: 1px solid #e7e5e4;
+            border-radius: 8px;
+            padding: 16px;
+            text-align: center;
+            margin-bottom: 18px;
+        }
+        .chart-frame img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .insight-callout {
+            background: #f0fdf4;
+            border-left: 4px solid var(--brand-primary);
+            padding: 14px 18px;
+            border-radius: 0 8px 8px 0;
+            font-size: 14px;
+            color: #14532d;
+        }
+        .insight-callout strong { color: #064e3b; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <nav class="top-nav">
+        <a href="../index.html">← Master Portal</a>
+        <span class="nav-sep">•</span>
+        <a href="../deck/gamma_presentation_deck.html">📑 Executive Slide Deck</a>
+        <a href="../campaign_pack/campaign_preview.html">🎨 Marketing Collateral</a>
+    </nav>
+
+    <div class="banner">
+        <span class="banner-tag">Consultancy Advisory Unit</span>
+        <h1>Institutional Holdings &amp; Utilization Diagnostics</h1>
+        <p>Rajasthan Institute of Management &amp; Sciences (RIMS) | Empirical Analysis of 300 Holdings &amp; Flow Dynamics</p>
+    </div>
+
+    <div class="metric-ribbon">
+        <div class="metric-tile alert">
+            <div class="metric-title">Current Footfall Rate</div>
+            <div class="metric-number">~300 / Day</div>
+            <div class="metric-detail">Capacity: 200 Seats | 3,500 Total Students</div>
+        </div>
+        <div class="metric-tile alert">
+            <div class="metric-title">Mandated Cost Reduction</div>
+            <div class="metric-number">-30.0%</div>
+            <div class="metric-detail">Cap: ₹12.60 Lakh (₹5.40 Lakh Savings)</div>
+        </div>
+        <div class="metric-tile gold">
+            <div class="metric-title">Dormant Serials Proportion</div>
+            <div class="metric-number">57.0%</div>
+            <div class="metric-detail">53 of 93 sampled journals &lt;10 downloads/yr</div>
+        </div>
+        <div class="metric-tile">
+            <div class="metric-title">Pre-2015 Holdings Share</div>
+            <div class="metric-number">42.0%</div>
+            <div class="metric-detail">Avg. annual checkout &lt;1.4 per title</div>
+        </div>
+    </div>
+
+    <!-- Figure 1 -->
+    <div class="figure-card">
+        <h2>Figure 1: Comparative Academic School Utilization Breakdown</h2>
+        <div class="chart-frame">
+            <img src="figure_1_department_utilization.png" alt="Department Utilization Breakdown">
+        </div>
+        <div class="insight-callout">
+            <strong>Key Diagnostic Finding:</strong> The School of Business and School of Technology &amp; Computing generate 71.4% of total institutional interactions, propelled by intense computing e-resource traffic. In contrast, Social Sciences and Pure &amp; Applied Sciences contribute under 13% combined due to obsolete monograph inventories and zero licensed e-packages.
+        </div>
+    </div>
+
+    <!-- Figure 2 -->
+    <div class="figure-card">
+        <h2>Figure 2: Monograph Circulation Velocity Relative to Publication Vintage</h2>
+        <div class="chart-frame">
+            <img src="figure_2_issues_vs_publication_year.png" alt="Issues vs Publication Year">
+        </div>
+        <div class="insight-callout">
+            <strong>Key Diagnostic Finding:</strong> A severe "vintage threshold" is evident: monographs published prior to 2015 average merely 1.34 checkouts annually, confirming student assertions that the collection is obsolete. Conversely, 2021–2024 editions circulate at peak velocity (up to 64 issues/copy), proving that students actively utilize current syllabus materials.
+        </div>
+    </div>
+
+    <!-- Figure 3 -->
+    <div class="figure-card">
+        <h2>Figure 3: Portfolio Efficiency Matrix (Annual Cost vs. Total Usage Yield)</h2>
+        <div class="chart-frame">
+            <img src="figure_3_cost_vs_usage.png" alt="Portfolio Cost vs Usage Matrix">
+        </div>
+        <div class="insight-callout">
+            <strong>Key Diagnostic Finding:</strong> Print and specialized serial subscriptions represent the primary financial leakage, absorbing over 64% of collection budgets while 57% record under 10 downloads annually (costing up to ₹6,800/retrieval). Core course textbooks and bundled digital e-resources generate over 14x greater cost-efficiency.
+        </div>
+    </div>
+
+    <!-- Figure 4 -->
+    <div class="figure-card">
+        <h2>Figure 4: Operating Hours Inundation &amp; Late Afternoon Chokepoint</h2>
+        <div class="chart-frame">
+            <img src="figure_4_visits_by_time_slot.png" alt="Operating Hours Footfall Distribution">
+        </div>
+        <div class="insight-callout">
+            <strong>Key Diagnostic Finding:</strong> Library footfall peaks heavily during Midday Slot B (11:30–13:30 at 39%), followed by a steep 74% collapse in late afternoon Slot D (10%) due to mandatory laboratory practicals running until 16:30. Terminating operations at 17:00 locks out 2,200 day scholars just as their academic classes end.
+        </div>
+    </div>
+
+    <!-- Figure 5 -->
+    <div class="figure-card">
+        <h2>Figure 5: Student Satisfaction Index Across Academic Seniority Tiers</h2>
+        <div class="chart-frame">
+            <img src="figure_5_satisfaction_by_year.png" alt="Satisfaction across Seniority Cohorts">
+        </div>
+        <div class="insight-callout">
+            <strong>Key Diagnostic Finding:</strong> User sentiment drops steadily from Freshman UG (mean: 3.71/5.0) down to Master Level PG-2 (mean: 2.08/5.0). While junior undergraduates find foundational study desks adequate, senior and master-level scholars preparing dissertations face severe deficits in research-grade monographs and remote database access.
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

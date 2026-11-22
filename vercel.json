@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/deck", "destination": "/deck/gamma_presentation_deck.html" },
+    { "source": "/campaign", "destination": "/campaign_pack/campaign_preview.html" },
+    { "source": "/analytics", "destination": "/analysis/analysis_dashboard.html" },
+    { "source": "/analysis", "destination": "/analysis/analysis_dashboard.html" }
+  ]
+}

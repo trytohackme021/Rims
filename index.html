@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIMS Academic Commons - Turnaround & Portfolio Suite</title>
+    <style>
+        :root {
+            --bg-canvas: #fcfaf7;
+            --surface-card: #ffffff;
+            --border-subtle: #e7e5e4;
+            --brand-primary: #064e3b;
+            --brand-accent: #c2410c;
+            --brand-gold: #b45309;
+            --text-heading: #1c1917;
+            --text-body: #44403c;
+            --text-muted: #78716c;
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: var(--bg-canvas);
+            color: var(--text-body);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 44px 24px 60px 24px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px solid var(--brand-primary);
+            padding-bottom: 30px;
+        }
+        .agency-pill {
+            display: inline-block;
+            background: #ecfdf5;
+            color: var(--brand-primary);
+            border: 1px solid #a7f3d0;
+            font-size: 12.5px;
+            font-weight: 800;
+            padding: 5px 14px;
+            border-radius: 4px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 14px;
+        }
+        h1 {
+            font-family: "Georgia", serif;
+            font-size: 38px;
+            font-weight: 800;
+            color: var(--text-heading);
+            margin: 0 0 14px 0;
+            letter-spacing: -0.5px;
+        }
+        p.subtitle {
+            font-size: 17px;
+            color: var(--text-muted);
+            max-width: 740px;
+            margin: 0 auto;
+        }
+        .ribbon {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 16px;
+            margin-bottom: 44px;
+        }
+        .ribbon-box {
+            background: var(--surface-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+            border-bottom: 3px solid var(--brand-primary);
+        }
+        .ribbon-val {
+            font-family: "Georgia", serif;
+            font-size: 26px;
+            font-weight: 800;
+            color: var(--brand-accent);
+            margin-bottom: 4px;
+        }
+        .ribbon-lbl {
+            font-size: 12px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 700;
+        }
+
+        .showcase-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 28px;
+            margin-bottom: 52px;
+        }
+        .showcase-card {
+            background: var(--surface-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 32px 28px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+            transition: all 0.25s ease;
+        }
+        .showcase-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px rgba(6, 78, 59, 0.1);
+            border-color: var(--brand-primary);
+        }
+        .card-icon {
+            font-size: 34px;
+            margin-bottom: 16px;
+            display: inline-block;
+        }
+        .card-title {
+            font-family: "Georgia", serif;
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--brand-primary);
+            margin: 0 0 10px 0;
+        }
+        .card-desc {
+            font-size: 14.5px;
+            color: var(--text-body);
+            line-height: 1.55;
+            margin-bottom: 24px;
+            flex-grow: 1;
+        }
+        .btn-action {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--brand-primary);
+            color: #ffffff;
+            font-size: 14.5px;
+            font-weight: 700;
+            padding: 12px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+        .btn-action:hover {
+            background: #042f2e;
+        }
+
+        .docs-block {
+            background: var(--surface-card);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            padding: 30px;
+        }
+        .docs-block h3 {
+            margin: 0 0 18px 0;
+            color: var(--brand-primary);
+            font-family: "Georgia", serif;
+            font-size: 19px;
+        }
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 14px;
+        }
+        .link-pill {
+            display: block;
+            background: #fafaf9;
+            border: 1px solid var(--border-subtle);
+            padding: 12px 16px;
+            border-radius: 6px;
+            color: var(--text-heading);
+            text-decoration: none;
+            font-size: 13.5px;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        .link-pill:hover {
+            background: var(--brand-primary);
+            color: #ffffff;
+            border-color: var(--brand-primary);
+        }
+
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 12.5px;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border-subtle);
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <span class="agency-pill">Apex Higher Education Advisory Partners</span>
+        <h1>RIMS Academic Commons Turnaround Portal</h1>
+        <p class="subtitle">Evidence-based holdings audit, portfolio restructuring under the -30% budget ceiling, and academic engagement campaign for Rajasthan Institute of Management &amp; Sciences.</p>
+    </header>
+
+    <div class="ribbon">
+        <div class="ribbon-box">
+            <div class="ribbon-val">₹12.60 Lakh</div>
+            <div class="ribbon-lbl">Target Budget Ceiling (-30%)</div>
+        </div>
+        <div class="ribbon-box">
+            <div class="ribbon-val">3,500</div>
+            <div class="ribbon-lbl">Enrolled Scholar Base</div>
+        </div>
+        <div class="ribbon-box">
+            <div class="ribbon-val">780+ Visits</div>
+            <div class="ribbon-lbl">Target Footfall Goal</div>
+        </div>
+        <div class="ribbon-box">
+            <div class="ribbon-val">08:00 – 21:00</div>
+            <div class="ribbon-lbl">Extended Operating Horizon</div>
+        </div>
+    </div>
+
+    <div class="showcase-grid">
+        <!-- Card 1: Slide Deck -->
+        <div class="showcase-card">
+            <div>
+                <span class="card-icon">📑</span>
+                <h2 class="card-title">1. Executive Presentation Deck</h2>
+                <p class="card-desc">Comprehensive 10-slide executive presentation tailored for Principal Dr. Arvind Sharma and the Academic Council. Includes structured speaker notes, financial breakdown, and keyboard navigation.</p>
+            </div>
+            <a href="deck/gamma_presentation_deck.html" class="btn-action">Launch Slide Presentation ➔</a>
+        </div>
+
+        <!-- Card 2: Campaign Pack -->
+        <div class="showcase-card">
+            <div>
+                <span class="card-icon">🎨</span>
+                <h2 class="card-title">2. Campus Awareness Campaign</h2>
+                <p class="card-desc">Modernist Swiss/Bauhaus collateral addressing timetable barriers and collection vintage: 1080×1080 Instagram square ('Your Syllabus. Fresh Off The Press') and A3 concourse poster ('Reclaim Your Study Span').</p>
+            </div>
+            <a href="campaign_pack/campaign_preview.html" class="btn-action">Explore Campaign Pack ➔</a>
+        </div>
+
+        <!-- Card 3: Analytics Dashboard -->
+        <div class="showcase-card">
+            <div>
+                <span class="card-icon">📊</span>
+                <h2 class="card-title">3. Portfolio Usage Analytics</h2>
+                <p class="card-desc">Interactive diagnostic dashboard featuring 5 publication-grade figures: school utilization profiles, the 2015 vintage cliff, serial cost-per-use leakage, diurnal traffic flow, and sentiment erosion across seniority tiers.</p>
+            </div>
+            <a href="analysis/analysis_dashboard.html" class="btn-action">View Analytical Dashboard ➔</a>
+        </div>
+    </div>
+
+    <div class="docs-block">
+        <h3>Institutional Policy &amp; Audit Artifacts</h3>
+        <div class="links-grid">
+            <a href="report/collection_decision_note.pdf" class="link-pill" target="_blank">📥 Policy Decision Note (PDF)</a>
+            <a href="prompts/prompt_log.pdf" class="link-pill" target="_blank">📥 Prompt Methodological Log (PDF)</a>
+            <a href="report/collection_decision_note.md" class="link-pill" target="_blank">📄 Decision Note (Markdown)</a>
+            <a href="prompts/prompt_log.md" class="link-pill" target="_blank">🔍 Prompt Log (Markdown)</a>
+            <a href="data/rims_collection_audit_2026.csv" class="link-pill" download>💾 Census Dataset (300 Rows CSV)</a>
+            <a href="data/data_dictionary.md" class="link-pill" target="_blank">📖 Metadata Dictionary</a>
+        </div>
+    </div>
+
+    <footer>
+        Rajasthan Institute of Management &amp; Sciences (RIMS) &bull; Apex Advisory Partners &bull; Ready for Vercel Deployment
+    </footer>
+</div>
+
+</body>
+</html>

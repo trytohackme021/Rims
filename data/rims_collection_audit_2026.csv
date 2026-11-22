@@ -1,0 +1,301 @@
+record_id,department,resource_type,subject_category,publication_year,times_issued_last_year,downloads_last_year,annual_cost,visit_time_slot,student_year,satisfaction_score
+ACAD-LIB-1001,Department of Social Sciences,book,Developmental Sociology,2022,59,0,2100,Slot B: 11:30 - 13:30,Master Level (PG-2),4
+ACAD-LIB-1002,School of Technology & Computing,book,Quantum Algorithms,2009,2,0,2065,Slot D: 15:30 - 17:00,Year 3 (Final Year UG),2
+ACAD-LIB-1003,School of Business,book,Supply Chain Modeling,2021,62,0,563,Slot C: 13:30 - 15:30,Year 1 (Freshman UG),5
+ACAD-LIB-1004,School of Business,book,Fintech Innovations,2020,18,0,1509,Slot C: 13:30 - 15:30,Year 3 (Final Year UG),4
+ACAD-LIB-1005,Department of Pure & Applied Sciences,journal,Industrial Green Chemistry,2019,0,4,86124,Slot A: 09:00 - 11:30,Year 2 (Sophomore UG),1
+ACAD-LIB-1006,School of Business,book,Consumer Behavior Analytics,2022,43,0,1337,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),4
+ACAD-LIB-1007,School of Technology & Computing,book,Outdated System Architecture (PDP/VAX/Pascal),2014,4,0,2640,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),1
+ACAD-LIB-1008,School of Business,book,Corporate Valuation,2021,48,0,2626,Slot A: 09:00 - 11:30,Year 2 (Sophomore UG),5
+ACAD-LIB-1009,School of Business,e-resource,Strategic Leadership,2021,0,153,19429,Slot D: 15:30 - 17:00,Master Level (PG-2),5
+ACAD-LIB-1010,School of Business,e-resource,Corporate Valuation,2020,0,112,27413,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),3
+ACAD-LIB-1011,School of Technology & Computing,book,Cryptography & Network Defense,2003,0,0,1774,Slot D: 15:30 - 17:00,Year 1 (Freshman UG),2
+ACAD-LIB-1012,School of Business,book,Consumer Behavior Analytics,2020,9,0,2716,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),3
+ACAD-LIB-1013,School of Business,journal,Supply Chain Modeling,2019,0,0,64781,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),3
+ACAD-LIB-1014,School of Technology & Computing,journal,Cryptography & Network Defense,2024,0,0,35171,Slot A: 09:00 - 11:30,Master Level (PG-1),1
+ACAD-LIB-1015,School of Technology & Computing,book,Machine Learning & Neural Nets,2021,47,0,1072,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),5
+ACAD-LIB-1016,School of Commerce & Finance,e-resource,International Trade Logistics,2020,0,30,45639,Slot B: 11:30 - 13:30,Master Level (PG-2),4
+ACAD-LIB-1017,School of Technology & Computing,book,Distributed Systems,2019,8,0,3148,Slot B: 11:30 - 13:30,Master Level (PG-1),4
+ACAD-LIB-1018,School of Technology & Computing,journal,Distributed Systems,2017,0,2,67342,Slot A: 09:00 - 11:30,Master Level (PG-2),1
+ACAD-LIB-1019,School of Commerce & Finance,journal,Advanced Forensic Accounting,2017,0,41,73905,Slot A: 09:00 - 11:30,Master Level (PG-1),3
+ACAD-LIB-1020,School of Business,e-resource,Strategic Leadership,2022,0,107,22499,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),4
+ACAD-LIB-1021,Department of Pure & Applied Sciences,journal,Bioinformatics & Genomic Analytics,2017,0,2,56854,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),1
+ACAD-LIB-1022,School of Commerce & Finance,book,International Trade Logistics,2006,0,0,3002,Slot A: 09:00 - 11:30,Year 3 (Final Year UG),2
+ACAD-LIB-1023,School of Technology & Computing,e-resource,Full-Stack Software Architecture,2021,0,115,22648,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),3
+ACAD-LIB-1024,School of Technology & Computing,journal,Machine Learning & Neural Nets,2024,0,40,61758,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),5
+ACAD-LIB-1025,School of Technology & Computing,e-resource,Distributed Systems,2024,0,33,20646,Slot C: 13:30 - 15:30,Year 1 (Freshman UG),4
+ACAD-LIB-1026,School of Business,book,Fintech Innovations,2020,12,0,1948,Slot A: 09:00 - 11:30,Year 2 (Sophomore UG),3
+ACAD-LIB-1027,School of Technology & Computing,book,Cryptography & Network Defense,2000,0,0,2451,Slot B: 11:30 - 13:30,Master Level (PG-1),1
+ACAD-LIB-1028,School of Business,journal,Fintech Innovations,2020,0,4,75964,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),3
+ACAD-LIB-1029,School of Business,journal,Human Resource Systems,2019,0,34,34431,Slot A: 09:00 - 11:30,Year 2 (Sophomore UG),2
+ACAD-LIB-1030,School of Technology & Computing,journal,Quantum Algorithms,2022,0,5,30094,Slot A: 09:00 - 11:30,Year 2 (Sophomore UG),1
+ACAD-LIB-1031,School of Business,e-resource,Fintech Innovations,2021,0,28,38219,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),4
+ACAD-LIB-1032,School of Commerce & Finance,journal,Direct & Indirect Taxation,2018,0,3,66312,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),1
+ACAD-LIB-1033,School of Technology & Computing,book,Distributed Systems,2000,0,0,2771,Slot D: 15:30 - 17:00,Year 1 (Freshman UG),2
+ACAD-LIB-1034,School of Business,journal,Fintech Innovations,2024,0,6,69886,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),1
+ACAD-LIB-1035,School of Commerce & Finance,journal,International Trade Logistics,2016,0,0,31414,Slot B: 11:30 - 13:30,Master Level (PG-1),3
+ACAD-LIB-1036,School of Commerce & Finance,e-resource,International Trade Logistics,2019,0,129,44680,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),3
+ACAD-LIB-1037,Department of Social Sciences,e-resource,Developmental Sociology,2019,0,92,17506,Slot C: 13:30 - 15:30,Year 3 (Final Year UG),2
+ACAD-LIB-1038,School of Technology & Computing,journal,Full-Stack Software Architecture,2016,0,4,64388,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),1
+ACAD-LIB-1039,Department of Social Sciences,book,Contemporary History & Global Studies,1998,1,0,3174,Slot C: 13:30 - 15:30,Year 1 (Freshman UG),1
+ACAD-LIB-1040,School of Technology & Computing,book,Outdated System Architecture (PDP/VAX/Pascal),2007,0,0,893,Slot A: 09:00 - 11:30,Year 3 (Final Year UG),1
+ACAD-LIB-1041,School of Technology & Computing,journal,Cryptography & Network Defense,2019,0,11,83148,Slot A: 09:00 - 11:30,Year 2 (Sophomore UG),4
+ACAD-LIB-1042,Department of Social Sciences,book,Public Policy Analysis,2008,2,0,2176,Slot B: 11:30 - 13:30,Master Level (PG-2),1
+ACAD-LIB-1043,School of Technology & Computing,book,Outdated System Architecture (PDP/VAX/Pascal),2007,1,0,3446,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),1
+ACAD-LIB-1044,School of Technology & Computing,book,Machine Learning & Neural Nets,2022,39,0,2706,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),5
+ACAD-LIB-1045,Department of Social Sciences,book,Comparative Indian Politics,2015,9,0,2786,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),2
+ACAD-LIB-1046,Department of Pure & Applied Sciences,book,Industrial Green Chemistry,2004,0,0,1912,Slot C: 13:30 - 15:30,Year 1 (Freshman UG),1
+ACAD-LIB-1047,School of Technology & Computing,journal,Quantum Algorithms,2021,0,38,42097,Slot A: 09:00 - 11:30,Year 2 (Sophomore UG),4
+ACAD-LIB-1048,School of Business,e-resource,Consumer Behavior Analytics,2023,0,170,38011,Slot D: 15:30 - 17:00,Year 3 (Final Year UG),5
+ACAD-LIB-1049,School of Business,e-resource,Corporate Valuation,2024,0,72,31678,Slot A: 09:00 - 11:30,Master Level (PG-1),4
+ACAD-LIB-1050,School of Commerce & Finance,e-resource,International Trade Logistics,2024,0,42,18591,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),4
+ACAD-LIB-1051,School of Technology & Computing,book,Machine Learning & Neural Nets,2022,41,0,3227,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),4
+ACAD-LIB-1052,School of Commerce & Finance,book,Equity Research & Portfolio Analysis,2023,52,0,1119,Slot A: 09:00 - 11:30,Master Level (PG-2),5
+ACAD-LIB-1053,Department of Pure & Applied Sciences,journal,Industrial Green Chemistry,2024,0,35,85298,Slot C: 13:30 - 15:30,Master Level (PG-2),4
+ACAD-LIB-1054,School of Business,book,Strategic Leadership,2014,0,0,3006,Slot B: 11:30 - 13:30,Master Level (PG-2),2
+ACAD-LIB-1055,School of Business,book,Consumer Behavior Analytics,2016,9,0,844,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),2
+ACAD-LIB-1056,School of Business,book,Consumer Behavior Analytics,2021,59,0,2561,Slot A: 09:00 - 11:30,Year 3 (Final Year UG),4
+ACAD-LIB-1057,School of Commerce & Finance,book,International Trade Logistics,2012,0,0,597,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),3
+ACAD-LIB-1058,School of Business,journal,Strategic Leadership,2024,0,4,61825,Slot A: 09:00 - 11:30,Master Level (PG-2),1
+ACAD-LIB-1059,School of Business,journal,Supply Chain Modeling,2016,0,2,60744,Slot C: 13:30 - 15:30,Master Level (PG-1),1
+ACAD-LIB-1060,School of Business,book,Human Resource Systems,2003,0,0,1065,Slot A: 09:00 - 11:30,Year 2 (Sophomore UG),1
+ACAD-LIB-1061,School of Business,e-resource,Strategic Leadership,2020,0,185,41638,Slot D: 15:30 - 17:00,Year 1 (Freshman UG),3
+ACAD-LIB-1062,School of Commerce & Finance,e-resource,Direct & Indirect Taxation,2023,0,69,29980,Slot B: 11:30 - 13:30,Master Level (PG-2),3
+ACAD-LIB-1063,Department of Social Sciences,journal,Linguistic Anthropology,2023,0,25,54319,Slot C: 13:30 - 15:30,Year 2 (Sophomore UG),4
+ACAD-LIB-1064,School of Technology & Computing,book,Cryptography & Network Defense,2008,1,0,2102,Slot A: 09:00 - 11:30,Year 2 (Sophomore UG),1
+ACAD-LIB-1065,Department of Pure & Applied Sciences,book,Bioinformatics & Genomic Analytics,2013,0,0,2413,Slot D: 15:30 - 17:00,Year 2 (Sophomore UG),1
+ACAD-LIB-1066,School of Business,book,Consumer Behavior Analytics,2003,0,0,561,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),1
+ACAD-LIB-1067,School of Commerce & Finance,journal,Company Auditing Principles,2017,0,16,60981,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),4
+ACAD-LIB-1068,School of Business,journal,Consumer Behavior Analytics,2020,0,33,30474,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),4
+ACAD-LIB-1069,School of Technology & Computing,book,Cryptography & Network Defense,1999,0,0,3315,Slot C: 13:30 - 15:30,Master Level (PG-2),1
+ACAD-LIB-1070,School of Commerce & Finance,journal,Advanced Forensic Accounting,2016,0,5,46512,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),2
+ACAD-LIB-1071,School of Business,e-resource,Supply Chain Modeling,2023,0,29,17178,Slot A: 09:00 - 11:30,Master Level (PG-2),5
+ACAD-LIB-1072,School of Commerce & Finance,book,Company Auditing Principles,2015,19,0,730,Slot C: 13:30 - 15:30,Year 1 (Freshman UG),4
+ACAD-LIB-1073,School of Commerce & Finance,e-resource,Advanced Forensic Accounting,2023,0,180,25960,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),5
+ACAD-LIB-1074,School of Business,book,Consumer Behavior Analytics,2013,2,0,2374,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),2
+ACAD-LIB-1075,School of Business,book,Strategic Leadership,2021,29,0,3215,Slot A: 09:00 - 11:30,Master Level (PG-1),3
+ACAD-LIB-1076,School of Business,e-resource,Human Resource Systems,2024,0,107,22908,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),4
+ACAD-LIB-1077,School of Business,book,Corporate Valuation,2017,8,0,1851,Slot B: 11:30 - 13:30,Master Level (PG-2),3
+ACAD-LIB-1078,School of Technology & Computing,book,Cryptography & Network Defense,2021,52,0,2051,Slot C: 13:30 - 15:30,Year 2 (Sophomore UG),4
+ACAD-LIB-1079,School of Technology & Computing,e-resource,Machine Learning & Neural Nets,2020,0,110,31305,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),4
+ACAD-LIB-1080,School of Technology & Computing,book,Outdated System Architecture (PDP/VAX/Pascal),2013,0,0,1884,Slot C: 13:30 - 15:30,Year 2 (Sophomore UG),2
+ACAD-LIB-1081,School of Commerce & Finance,book,International Trade Logistics,2015,12,0,2371,Slot A: 09:00 - 11:30,Year 2 (Sophomore UG),3
+ACAD-LIB-1082,Department of Pure & Applied Sciences,book,Computational Solid State Physics,2018,11,0,2824,Slot A: 09:00 - 11:30,Master Level (PG-2),3
+ACAD-LIB-1083,School of Technology & Computing,e-resource,Outdated System Architecture (PDP/VAX/Pascal),2019,0,60,22636,Slot D: 15:30 - 17:00,Master Level (PG-1),3
+ACAD-LIB-1084,School of Business,book,Fintech Innovations,2023,48,0,2915,Slot A: 09:00 - 11:30,Year 3 (Final Year UG),4
+ACAD-LIB-1085,School of Technology & Computing,journal,Machine Learning & Neural Nets,2017,0,9,36606,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),1
+ACAD-LIB-1086,School of Technology & Computing,book,Machine Learning & Neural Nets,2017,14,0,630,Slot B: 11:30 - 13:30,Master Level (PG-1),2
+ACAD-LIB-1087,School of Business,journal,Human Resource Systems,2019,0,18,28836,Slot D: 15:30 - 17:00,Year 3 (Final Year UG),2
+ACAD-LIB-1088,School of Technology & Computing,journal,Full-Stack Software Architecture,2017,0,7,62882,Slot A: 09:00 - 11:30,Year 3 (Final Year UG),3
+ACAD-LIB-1089,School of Technology & Computing,book,Outdated System Architecture (PDP/VAX/Pascal),2020,24,0,1862,Slot A: 09:00 - 11:30,Year 3 (Final Year UG),2
+ACAD-LIB-1090,School of Business,e-resource,Consumer Behavior Analytics,2020,0,35,35763,Slot A: 09:00 - 11:30,Year 2 (Sophomore UG),2
+ACAD-LIB-1091,School of Commerce & Finance,book,International Trade Logistics,2007,0,0,3375,Slot D: 15:30 - 17:00,Year 3 (Final Year UG),2
+ACAD-LIB-1092,School of Technology & Computing,e-resource,Machine Learning & Neural Nets,2023,0,99,22309,Slot A: 09:00 - 11:30,Year 3 (Final Year UG),4
+ACAD-LIB-1093,School of Business,book,Strategic Leadership,2022,47,0,1673,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),4
+ACAD-LIB-1094,School of Business,journal,Human Resource Systems,2020,0,35,79978,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),3
+ACAD-LIB-1095,School of Business,e-resource,Strategic Leadership,2021,0,22,22821,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),4
+ACAD-LIB-1096,Department of Social Sciences,book,Comparative Indian Politics,2018,10,0,2163,Slot A: 09:00 - 11:30,Year 3 (Final Year UG),3
+ACAD-LIB-1097,Department of Pure & Applied Sciences,e-resource,Industrial Green Chemistry,2020,0,43,23032,Slot A: 09:00 - 11:30,Master Level (PG-1),3
+ACAD-LIB-1098,School of Technology & Computing,journal,Outdated System Architecture (PDP/VAX/Pascal),2017,0,11,85447,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),3
+ACAD-LIB-1099,School of Technology & Computing,book,Quantum Algorithms,2019,21,0,681,Slot A: 09:00 - 11:30,Master Level (PG-2),2
+ACAD-LIB-1100,School of Technology & Computing,e-resource,Outdated System Architecture (PDP/VAX/Pascal),2020,0,76,34268,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),2
+ACAD-LIB-1101,School of Technology & Computing,book,Machine Learning & Neural Nets,2020,25,0,611,Slot A: 09:00 - 11:30,Year 2 (Sophomore UG),3
+ACAD-LIB-1102,Department of Pure & Applied Sciences,book,Bioinformatics & Genomic Analytics,2013,0,0,3289,Slot D: 15:30 - 17:00,Year 3 (Final Year UG),1
+ACAD-LIB-1103,School of Commerce & Finance,book,Direct & Indirect Taxation,2016,9,0,1710,Slot A: 09:00 - 11:30,Master Level (PG-2),2
+ACAD-LIB-1104,School of Technology & Computing,book,Full-Stack Software Architecture,2015,20,0,1501,Slot C: 13:30 - 15:30,Master Level (PG-2),3
+ACAD-LIB-1105,School of Business,book,Fintech Innovations,2018,15,0,3064,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),3
+ACAD-LIB-1106,School of Business,e-resource,Corporate Valuation,2022,0,85,44333,Slot C: 13:30 - 15:30,Year 1 (Freshman UG),5
+ACAD-LIB-1107,School of Business,journal,Fintech Innovations,2019,0,3,54224,Slot C: 13:30 - 15:30,Year 2 (Sophomore UG),2
+ACAD-LIB-1108,School of Business,journal,Human Resource Systems,2021,0,11,72536,Slot C: 13:30 - 15:30,Master Level (PG-1),5
+ACAD-LIB-1109,School of Business,book,Corporate Valuation,2017,16,0,2413,Slot C: 13:30 - 15:30,Year 2 (Sophomore UG),4
+ACAD-LIB-1110,School of Commerce & Finance,e-resource,Direct & Indirect Taxation,2023,0,135,25392,Slot C: 13:30 - 15:30,Year 1 (Freshman UG),4
+ACAD-LIB-1111,Department of Social Sciences,journal,Comparative Indian Politics,2017,0,20,41236,Slot D: 15:30 - 17:00,Year 1 (Freshman UG),2
+ACAD-LIB-1112,Department of Pure & Applied Sciences,e-resource,Bioinformatics & Genomic Analytics,2024,0,173,30949,Slot A: 09:00 - 11:30,Master Level (PG-1),5
+ACAD-LIB-1113,School of Technology & Computing,book,Distributed Systems,2019,17,0,826,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),2
+ACAD-LIB-1114,School of Technology & Computing,e-resource,Machine Learning & Neural Nets,2022,0,60,19613,Slot D: 15:30 - 17:00,Year 3 (Final Year UG),4
+ACAD-LIB-1115,School of Business,book,Consumer Behavior Analytics,2010,4,0,2260,Slot A: 09:00 - 11:30,Master Level (PG-2),1
+ACAD-LIB-1116,School of Technology & Computing,journal,Outdated System Architecture (PDP/VAX/Pascal),2017,0,8,45205,Slot B: 11:30 - 13:30,Master Level (PG-1),2
+ACAD-LIB-1117,School of Technology & Computing,journal,Cryptography & Network Defense,2020,0,1,50430,Slot B: 11:30 - 13:30,Master Level (PG-2),1
+ACAD-LIB-1118,School of Business,book,Strategic Leadership,2017,21,0,1786,Slot A: 09:00 - 11:30,Year 3 (Final Year UG),3
+ACAD-LIB-1119,Department of Social Sciences,book,Public Policy Analysis,2010,0,0,1751,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),1
+ACAD-LIB-1120,School of Commerce & Finance,book,Advanced Forensic Accounting,2010,0,0,2180,Slot D: 15:30 - 17:00,Master Level (PG-1),1
+ACAD-LIB-1121,School of Business,book,Strategic Leadership,2010,1,0,1106,Slot A: 09:00 - 11:30,Year 2 (Sophomore UG),3
+ACAD-LIB-1122,Department of Pure & Applied Sciences,book,Computational Solid State Physics,2008,0,0,872,Slot A: 09:00 - 11:30,Year 3 (Final Year UG),1
+ACAD-LIB-1123,School of Technology & Computing,e-resource,Machine Learning & Neural Nets,2023,0,39,31346,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),5
+ACAD-LIB-1124,School of Business,book,Fintech Innovations,2023,42,0,3259,Slot A: 09:00 - 11:30,Master Level (PG-1),4
+ACAD-LIB-1125,School of Technology & Computing,journal,Outdated System Architecture (PDP/VAX/Pascal),2023,0,28,54259,Slot B: 11:30 - 13:30,Master Level (PG-2),4
+ACAD-LIB-1126,School of Business,book,Supply Chain Modeling,2020,7,0,1073,Slot A: 09:00 - 11:30,Master Level (PG-2),3
+ACAD-LIB-1127,School of Business,journal,Strategic Leadership,2021,0,22,56162,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),5
+ACAD-LIB-1128,School of Technology & Computing,journal,Cryptography & Network Defense,2024,0,0,58786,Slot C: 13:30 - 15:30,Year 2 (Sophomore UG),2
+ACAD-LIB-1129,School of Business,journal,Fintech Innovations,2017,0,43,55120,Slot D: 15:30 - 17:00,Year 2 (Sophomore UG),2
+ACAD-LIB-1130,School of Business,book,Fintech Innovations,2013,1,0,945,Slot A: 09:00 - 11:30,Year 3 (Final Year UG),3
+ACAD-LIB-1131,School of Business,journal,Consumer Behavior Analytics,2019,0,5,36321,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),3
+ACAD-LIB-1132,School of Technology & Computing,book,Cryptography & Network Defense,2008,0,0,810,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),1
+ACAD-LIB-1133,School of Business,e-resource,Consumer Behavior Analytics,2022,0,73,41203,Slot B: 11:30 - 13:30,Master Level (PG-2),4
+ACAD-LIB-1134,School of Technology & Computing,e-resource,Distributed Systems,2020,0,192,43374,Slot D: 15:30 - 17:00,Year 2 (Sophomore UG),3
+ACAD-LIB-1135,School of Business,journal,Human Resource Systems,2017,0,5,60692,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),1
+ACAD-LIB-1136,School of Technology & Computing,book,Machine Learning & Neural Nets,2019,20,0,1855,Slot C: 13:30 - 15:30,Year 2 (Sophomore UG),2
+ACAD-LIB-1137,School of Business,e-resource,Consumer Behavior Analytics,2023,0,112,24986,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),4
+ACAD-LIB-1138,School of Technology & Computing,e-resource,Outdated System Architecture (PDP/VAX/Pascal),2019,0,78,45925,Slot A: 09:00 - 11:30,Master Level (PG-2),3
+ACAD-LIB-1139,School of Technology & Computing,journal,Machine Learning & Neural Nets,2016,0,7,37576,Slot A: 09:00 - 11:30,Master Level (PG-2),2
+ACAD-LIB-1140,School of Business,e-resource,Fintech Innovations,2019,0,180,31602,Slot A: 09:00 - 11:30,Year 3 (Final Year UG),4
+ACAD-LIB-1141,Department of Social Sciences,book,Public Policy Analysis,2009,0,0,2813,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),2
+ACAD-LIB-1142,School of Business,journal,Supply Chain Modeling,2024,0,27,60560,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),4
+ACAD-LIB-1143,School of Business,book,Human Resource Systems,2018,17,0,778,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),3
+ACAD-LIB-1144,Department of Social Sciences,journal,Comparative Indian Politics,2023,0,15,60654,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),4
+ACAD-LIB-1145,School of Commerce & Finance,e-resource,Advanced Forensic Accounting,2022,0,72,40924,Slot D: 15:30 - 17:00,Year 3 (Final Year UG),5
+ACAD-LIB-1146,School of Technology & Computing,book,Outdated System Architecture (PDP/VAX/Pascal),2015,16,0,1914,Slot B: 11:30 - 13:30,Master Level (PG-2),2
+ACAD-LIB-1147,School of Business,book,Consumer Behavior Analytics,2020,16,0,1474,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),3
+ACAD-LIB-1148,Department of Pure & Applied Sciences,journal,Computational Solid State Physics,2021,0,8,33013,Slot C: 13:30 - 15:30,Master Level (PG-2),2
+ACAD-LIB-1149,School of Technology & Computing,book,Machine Learning & Neural Nets,2024,47,0,652,Slot C: 13:30 - 15:30,Year 3 (Final Year UG),4
+ACAD-LIB-1150,School of Technology & Computing,book,Cryptography & Network Defense,2016,6,0,3359,Slot A: 09:00 - 11:30,Year 2 (Sophomore UG),2
+ACAD-LIB-1151,School of Business,journal,Supply Chain Modeling,2021,0,2,74136,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),1
+ACAD-LIB-1152,School of Business,e-resource,Consumer Behavior Analytics,2021,0,80,44106,Slot A: 09:00 - 11:30,Year 3 (Final Year UG),4
+ACAD-LIB-1153,School of Business,book,Consumer Behavior Analytics,2015,11,0,3150,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),2
+ACAD-LIB-1154,School of Business,book,Strategic Leadership,2006,0,0,1792,Slot C: 13:30 - 15:30,Year 2 (Sophomore UG),1
+ACAD-LIB-1155,School of Technology & Computing,e-resource,Distributed Systems,2019,0,65,16971,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),3
+ACAD-LIB-1156,School of Business,journal,Human Resource Systems,2017,0,9,32128,Slot A: 09:00 - 11:30,Year 3 (Final Year UG),2
+ACAD-LIB-1157,School of Business,journal,Supply Chain Modeling,2017,0,9,44526,Slot D: 15:30 - 17:00,Year 3 (Final Year UG),2
+ACAD-LIB-1158,School of Business,journal,Supply Chain Modeling,2020,0,19,48104,Slot A: 09:00 - 11:30,Year 2 (Sophomore UG),3
+ACAD-LIB-1159,School of Business,book,Supply Chain Modeling,2012,0,0,2687,Slot C: 13:30 - 15:30,Year 2 (Sophomore UG),1
+ACAD-LIB-1160,School of Business,e-resource,Fintech Innovations,2019,0,117,23630,Slot C: 13:30 - 15:30,Year 2 (Sophomore UG),2
+ACAD-LIB-1161,School of Technology & Computing,book,Outdated System Architecture (PDP/VAX/Pascal),2017,17,0,1268,Slot D: 15:30 - 17:00,Year 3 (Final Year UG),3
+ACAD-LIB-1162,School of Technology & Computing,book,Machine Learning & Neural Nets,2017,10,0,2955,Slot C: 13:30 - 15:30,Year 1 (Freshman UG),4
+ACAD-LIB-1163,School of Technology & Computing,book,Machine Learning & Neural Nets,1998,0,0,3147,Slot C: 13:30 - 15:30,Year 3 (Final Year UG),2
+ACAD-LIB-1164,Department of Pure & Applied Sciences,book,Bioinformatics & Genomic Analytics,2024,38,0,950,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),5
+ACAD-LIB-1165,School of Business,book,Consumer Behavior Analytics,2019,18,0,1666,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),2
+ACAD-LIB-1166,School of Business,journal,Corporate Valuation,2023,0,28,29756,Slot B: 11:30 - 13:30,Master Level (PG-1),4
+ACAD-LIB-1167,School of Technology & Computing,e-resource,Cryptography & Network Defense,2019,0,73,42370,Slot B: 11:30 - 13:30,Master Level (PG-2),4
+ACAD-LIB-1168,School of Commerce & Finance,journal,Advanced Forensic Accounting,2018,0,3,48891,Slot A: 09:00 - 11:30,Master Level (PG-2),1
+ACAD-LIB-1169,School of Business,book,Strategic Leadership,2015,12,0,1355,Slot A: 09:00 - 11:30,Year 2 (Sophomore UG),3
+ACAD-LIB-1170,School of Technology & Computing,book,Quantum Algorithms,2019,9,0,2086,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),3
+ACAD-LIB-1171,School of Technology & Computing,book,Quantum Algorithms,2015,13,0,1654,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),3
+ACAD-LIB-1172,School of Business,journal,Consumer Behavior Analytics,2023,0,18,54307,Slot C: 13:30 - 15:30,Year 1 (Freshman UG),3
+ACAD-LIB-1173,School of Technology & Computing,journal,Quantum Algorithms,2019,0,9,72113,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),1
+ACAD-LIB-1174,School of Technology & Computing,e-resource,Distributed Systems,2019,0,50,43251,Slot A: 09:00 - 11:30,Master Level (PG-1),3
+ACAD-LIB-1175,School of Business,book,Human Resource Systems,2020,8,0,2769,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),2
+ACAD-LIB-1176,School of Commerce & Finance,book,Company Auditing Principles,2016,26,0,2577,Slot A: 09:00 - 11:30,Master Level (PG-2),2
+ACAD-LIB-1177,School of Technology & Computing,e-resource,Cryptography & Network Defense,2020,0,105,25935,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),2
+ACAD-LIB-1178,School of Technology & Computing,book,Quantum Algorithms,2007,0,0,2825,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),2
+ACAD-LIB-1179,Department of Pure & Applied Sciences,book,Computational Solid State Physics,2022,33,0,3233,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),4
+ACAD-LIB-1180,School of Technology & Computing,book,Outdated System Architecture (PDP/VAX/Pascal),2000,0,0,3154,Slot A: 09:00 - 11:30,Year 3 (Final Year UG),2
+ACAD-LIB-1181,School of Technology & Computing,book,Cryptography & Network Defense,2022,33,0,1474,Slot B: 11:30 - 13:30,Master Level (PG-1),4
+ACAD-LIB-1182,School of Business,book,Human Resource Systems,2004,1,0,3238,Slot C: 13:30 - 15:30,Year 3 (Final Year UG),1
+ACAD-LIB-1183,Department of Social Sciences,book,Contemporary History & Global Studies,2021,39,0,1070,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),4
+ACAD-LIB-1184,School of Technology & Computing,book,Cryptography & Network Defense,2024,60,0,1459,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),4
+ACAD-LIB-1185,School of Technology & Computing,journal,Cryptography & Network Defense,2017,0,9,74161,Slot A: 09:00 - 11:30,Master Level (PG-1),2
+ACAD-LIB-1186,School of Technology & Computing,book,Full-Stack Software Architecture,2023,54,0,1939,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),4
+ACAD-LIB-1187,School of Technology & Computing,book,Full-Stack Software Architecture,2023,35,0,1418,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),4
+ACAD-LIB-1188,School of Business,book,Corporate Valuation,1997,0,0,2480,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),1
+ACAD-LIB-1189,School of Business,book,Corporate Valuation,2006,0,0,1808,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),1
+ACAD-LIB-1190,School of Technology & Computing,journal,Outdated System Architecture (PDP/VAX/Pascal),2017,0,2,35128,Slot A: 09:00 - 11:30,Year 2 (Sophomore UG),1
+ACAD-LIB-1191,Department of Pure & Applied Sciences,book,Bioinformatics & Genomic Analytics,2000,1,0,1008,Slot C: 13:30 - 15:30,Year 1 (Freshman UG),2
+ACAD-LIB-1192,Department of Pure & Applied Sciences,e-resource,Bioinformatics & Genomic Analytics,2023,0,72,18749,Slot C: 13:30 - 15:30,Year 1 (Freshman UG),4
+ACAD-LIB-1193,Department of Pure & Applied Sciences,book,Bioinformatics & Genomic Analytics,2016,9,0,1005,Slot B: 11:30 - 13:30,Master Level (PG-1),2
+ACAD-LIB-1194,School of Technology & Computing,e-resource,Quantum Algorithms,2024,0,163,36361,Slot C: 13:30 - 15:30,Year 3 (Final Year UG),5
+ACAD-LIB-1195,School of Technology & Computing,e-resource,Machine Learning & Neural Nets,2019,0,41,33935,Slot C: 13:30 - 15:30,Master Level (PG-2),3
+ACAD-LIB-1196,School of Technology & Computing,journal,Distributed Systems,2019,0,1,45556,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),2
+ACAD-LIB-1197,School of Business,book,Strategic Leadership,2007,1,0,3105,Slot A: 09:00 - 11:30,Master Level (PG-2),1
+ACAD-LIB-1198,Department of Pure & Applied Sciences,journal,Industrial Green Chemistry,2018,0,30,53437,Slot A: 09:00 - 11:30,Master Level (PG-2),4
+ACAD-LIB-1199,School of Technology & Computing,book,Quantum Algorithms,2015,12,0,3015,Slot A: 09:00 - 11:30,Master Level (PG-2),3
+ACAD-LIB-1200,School of Business,book,Consumer Behavior Analytics,2023,63,0,2735,Slot C: 13:30 - 15:30,Year 3 (Final Year UG),5
+ACAD-LIB-1201,School of Business,book,Consumer Behavior Analytics,2015,8,0,1994,Slot A: 09:00 - 11:30,Master Level (PG-1),3
+ACAD-LIB-1202,Department of Pure & Applied Sciences,book,Bioinformatics & Genomic Analytics,1998,1,0,946,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),1
+ACAD-LIB-1203,School of Technology & Computing,book,Quantum Algorithms,2016,11,0,631,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),3
+ACAD-LIB-1204,School of Commerce & Finance,book,International Trade Logistics,2009,0,0,2436,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),1
+ACAD-LIB-1205,School of Technology & Computing,journal,Quantum Algorithms,2018,0,24,66233,Slot C: 13:30 - 15:30,Master Level (PG-1),3
+ACAD-LIB-1206,School of Business,e-resource,Fintech Innovations,2019,0,141,18644,Slot B: 11:30 - 13:30,Master Level (PG-2),2
+ACAD-LIB-1207,School of Business,book,Human Resource Systems,1999,0,0,2137,Slot D: 15:30 - 17:00,Master Level (PG-1),1
+ACAD-LIB-1208,School of Technology & Computing,journal,Cryptography & Network Defense,2023,0,7,73387,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),2
+ACAD-LIB-1209,School of Business,journal,Corporate Valuation,2020,0,32,66143,Slot A: 09:00 - 11:30,Year 2 (Sophomore UG),2
+ACAD-LIB-1210,Department of Pure & Applied Sciences,e-resource,Industrial Green Chemistry,2020,0,76,32399,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),3
+ACAD-LIB-1211,Department of Pure & Applied Sciences,book,Bioinformatics & Genomic Analytics,2020,6,0,1863,Slot C: 13:30 - 15:30,Year 2 (Sophomore UG),3
+ACAD-LIB-1212,School of Technology & Computing,e-resource,Quantum Algorithms,2022,0,144,27411,Slot C: 13:30 - 15:30,Year 1 (Freshman UG),4
+ACAD-LIB-1213,School of Business,book,Human Resource Systems,2010,0,0,1043,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),1
+ACAD-LIB-1214,School of Business,journal,Supply Chain Modeling,2020,0,48,46057,Slot B: 11:30 - 13:30,Master Level (PG-1),4
+ACAD-LIB-1215,School of Business,journal,Consumer Behavior Analytics,2017,0,2,38459,Slot D: 15:30 - 17:00,Year 3 (Final Year UG),3
+ACAD-LIB-1216,Department of Pure & Applied Sciences,journal,Stochastic Differential Equations,2020,0,0,65669,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),3
+ACAD-LIB-1217,Department of Pure & Applied Sciences,book,Industrial Green Chemistry,2023,45,0,1969,Slot D: 15:30 - 17:00,Year 3 (Final Year UG),3
+ACAD-LIB-1218,School of Commerce & Finance,journal,Direct & Indirect Taxation,2020,0,4,86882,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),1
+ACAD-LIB-1219,Department of Social Sciences,journal,Comparative Indian Politics,2023,0,29,80842,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),4
+ACAD-LIB-1220,School of Technology & Computing,journal,Full-Stack Software Architecture,2024,0,5,72628,Slot C: 13:30 - 15:30,Year 1 (Freshman UG),3
+ACAD-LIB-1221,Department of Pure & Applied Sciences,journal,Computational Solid State Physics,2017,0,6,47532,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),1
+ACAD-LIB-1222,Department of Pure & Applied Sciences,journal,Bioinformatics & Genomic Analytics,2016,0,42,53927,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),3
+ACAD-LIB-1223,School of Technology & Computing,journal,Quantum Algorithms,2019,0,6,59591,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),2
+ACAD-LIB-1224,School of Commerce & Finance,journal,International Trade Logistics,2022,0,30,29580,Slot A: 09:00 - 11:30,Master Level (PG-1),4
+ACAD-LIB-1225,School of Business,book,Corporate Valuation,2004,0,0,2304,Slot A: 09:00 - 11:30,Master Level (PG-2),2
+ACAD-LIB-1226,Department of Social Sciences,journal,Contemporary History & Global Studies,2017,0,24,33181,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),3
+ACAD-LIB-1227,School of Business,e-resource,Corporate Valuation,2021,0,142,37041,Slot B: 11:30 - 13:30,Master Level (PG-1),4
+ACAD-LIB-1228,School of Technology & Computing,journal,Machine Learning & Neural Nets,2018,0,38,74962,Slot C: 13:30 - 15:30,Master Level (PG-1),3
+ACAD-LIB-1229,Department of Social Sciences,book,Contemporary History & Global Studies,2019,6,0,2181,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),3
+ACAD-LIB-1230,School of Technology & Computing,e-resource,Machine Learning & Neural Nets,2023,0,87,35847,Slot D: 15:30 - 17:00,Year 1 (Freshman UG),4
+ACAD-LIB-1231,School of Commerce & Finance,journal,Equity Research & Portfolio Analysis,2017,0,9,49216,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),1
+ACAD-LIB-1232,School of Business,journal,Consumer Behavior Analytics,2021,0,5,65711,Slot C: 13:30 - 15:30,Master Level (PG-1),2
+ACAD-LIB-1233,School of Business,e-resource,Corporate Valuation,2022,0,64,33896,Slot D: 15:30 - 17:00,Year 3 (Final Year UG),5
+ACAD-LIB-1234,School of Commerce & Finance,journal,Advanced Forensic Accounting,2019,0,6,60840,Slot D: 15:30 - 17:00,Year 1 (Freshman UG),2
+ACAD-LIB-1235,School of Business,book,Human Resource Systems,2021,32,0,1099,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),4
+ACAD-LIB-1236,School of Technology & Computing,book,Quantum Algorithms,2006,0,0,1260,Slot A: 09:00 - 11:30,Master Level (PG-1),2
+ACAD-LIB-1237,School of Business,book,Fintech Innovations,2000,0,0,1991,Slot A: 09:00 - 11:30,Year 2 (Sophomore UG),2
+ACAD-LIB-1238,Department of Social Sciences,journal,Public Policy Analysis,2016,0,39,55035,Slot C: 13:30 - 15:30,Year 3 (Final Year UG),3
+ACAD-LIB-1239,Department of Social Sciences,book,Public Policy Analysis,1997,0,0,1263,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),2
+ACAD-LIB-1240,School of Business,book,Consumer Behavior Analytics,2018,20,0,2068,Slot C: 13:30 - 15:30,Year 3 (Final Year UG),3
+ACAD-LIB-1241,School of Technology & Computing,journal,Quantum Algorithms,2024,0,45,54795,Slot C: 13:30 - 15:30,Master Level (PG-2),4
+ACAD-LIB-1242,School of Technology & Computing,book,Outdated System Architecture (PDP/VAX/Pascal),2005,0,0,3077,Slot A: 09:00 - 11:30,Master Level (PG-2),2
+ACAD-LIB-1243,School of Business,book,Supply Chain Modeling,2018,16,0,3340,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),3
+ACAD-LIB-1244,Department of Social Sciences,book,Public Policy Analysis,2001,1,0,626,Slot C: 13:30 - 15:30,Master Level (PG-1),1
+ACAD-LIB-1245,School of Commerce & Finance,e-resource,Company Auditing Principles,2024,0,54,44731,Slot C: 13:30 - 15:30,Master Level (PG-1),4
+ACAD-LIB-1246,Department of Pure & Applied Sciences,e-resource,Industrial Green Chemistry,2023,0,113,40969,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),3
+ACAD-LIB-1247,School of Business,journal,Corporate Valuation,2022,0,7,47332,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),1
+ACAD-LIB-1248,School of Commerce & Finance,book,Company Auditing Principles,2024,64,0,2805,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),4
+ACAD-LIB-1249,School of Technology & Computing,journal,Machine Learning & Neural Nets,2022,0,15,69590,Slot A: 09:00 - 11:30,Year 3 (Final Year UG),5
+ACAD-LIB-1250,School of Commerce & Finance,book,Company Auditing Principles,2004,0,0,854,Slot B: 11:30 - 13:30,Master Level (PG-2),1
+ACAD-LIB-1251,Department of Social Sciences,e-resource,Comparative Indian Politics,2019,0,55,38846,Slot C: 13:30 - 15:30,Master Level (PG-2),2
+ACAD-LIB-1252,School of Business,book,Strategic Leadership,2020,26,0,2794,Slot C: 13:30 - 15:30,Year 1 (Freshman UG),3
+ACAD-LIB-1253,School of Business,book,Supply Chain Modeling,2019,17,0,542,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),4
+ACAD-LIB-1254,School of Business,journal,Corporate Valuation,2020,0,0,64146,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),2
+ACAD-LIB-1255,School of Commerce & Finance,book,Advanced Forensic Accounting,2022,33,0,3303,Slot A: 09:00 - 11:30,Master Level (PG-2),4
+ACAD-LIB-1256,School of Business,journal,Fintech Innovations,2022,0,28,80520,Slot C: 13:30 - 15:30,Year 3 (Final Year UG),5
+ACAD-LIB-1257,School of Business,e-resource,Corporate Valuation,2021,0,142,37346,Slot D: 15:30 - 17:00,Year 1 (Freshman UG),4
+ACAD-LIB-1258,School of Business,journal,Corporate Valuation,2018,0,24,40341,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),3
+ACAD-LIB-1259,School of Commerce & Finance,journal,Equity Research & Portfolio Analysis,2023,0,41,44775,Slot A: 09:00 - 11:30,Master Level (PG-1),3
+ACAD-LIB-1260,School of Technology & Computing,book,Quantum Algorithms,2016,22,0,2089,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),3
+ACAD-LIB-1261,School of Commerce & Finance,journal,International Trade Logistics,2017,0,39,51363,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),2
+ACAD-LIB-1262,School of Commerce & Finance,book,International Trade Logistics,2018,7,0,2984,Slot C: 13:30 - 15:30,Year 2 (Sophomore UG),3
+ACAD-LIB-1263,Department of Pure & Applied Sciences,book,Bioinformatics & Genomic Analytics,1999,0,0,1045,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),1
+ACAD-LIB-1264,School of Business,book,Fintech Innovations,2017,20,0,3181,Slot D: 15:30 - 17:00,Master Level (PG-2),3
+ACAD-LIB-1265,School of Technology & Computing,book,Cryptography & Network Defense,2004,0,0,1948,Slot C: 13:30 - 15:30,Year 1 (Freshman UG),1
+ACAD-LIB-1266,School of Commerce & Finance,journal,Direct & Indirect Taxation,2022,0,3,28895,Slot C: 13:30 - 15:30,Master Level (PG-1),1
+ACAD-LIB-1267,School of Business,journal,Human Resource Systems,2020,0,4,48093,Slot D: 15:30 - 17:00,Year 1 (Freshman UG),2
+ACAD-LIB-1268,School of Commerce & Finance,book,International Trade Logistics,2020,20,0,2291,Slot B: 11:30 - 13:30,Master Level (PG-1),3
+ACAD-LIB-1269,Department of Pure & Applied Sciences,book,Stochastic Differential Equations,2016,25,0,1217,Slot A: 09:00 - 11:30,Year 2 (Sophomore UG),4
+ACAD-LIB-1270,Department of Pure & Applied Sciences,book,Computational Solid State Physics,2022,45,0,2051,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),5
+ACAD-LIB-1271,Department of Pure & Applied Sciences,book,Stochastic Differential Equations,2023,63,0,2526,Slot A: 09:00 - 11:30,Master Level (PG-1),5
+ACAD-LIB-1272,School of Business,book,Fintech Innovations,2006,1,0,1236,Slot B: 11:30 - 13:30,Master Level (PG-1),1
+ACAD-LIB-1273,School of Business,book,Consumer Behavior Analytics,2024,40,0,703,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),4
+ACAD-LIB-1274,School of Business,journal,Consumer Behavior Analytics,2016,0,7,70789,Slot C: 13:30 - 15:30,Year 3 (Final Year UG),3
+ACAD-LIB-1275,School of Technology & Computing,e-resource,Full-Stack Software Architecture,2024,0,99,41092,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),4
+ACAD-LIB-1276,School of Commerce & Finance,book,Advanced Forensic Accounting,2008,0,0,1707,Slot D: 15:30 - 17:00,Year 3 (Final Year UG),1
+ACAD-LIB-1277,School of Business,journal,Fintech Innovations,2018,0,1,81292,Slot B: 11:30 - 13:30,Master Level (PG-2),1
+ACAD-LIB-1278,Department of Social Sciences,journal,Comparative Indian Politics,2022,0,7,62870,Slot A: 09:00 - 11:30,Year 1 (Freshman UG),3
+ACAD-LIB-1279,School of Commerce & Finance,book,Equity Research & Portfolio Analysis,2022,38,0,2413,Slot B: 11:30 - 13:30,Master Level (PG-1),4
+ACAD-LIB-1280,Department of Social Sciences,book,Linguistic Anthropology,2009,0,0,1231,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),2
+ACAD-LIB-1281,School of Business,book,Supply Chain Modeling,2016,11,0,961,Slot C: 13:30 - 15:30,Master Level (PG-2),2
+ACAD-LIB-1282,School of Technology & Computing,book,Distributed Systems,2021,34,0,3003,Slot A: 09:00 - 11:30,Master Level (PG-2),4
+ACAD-LIB-1283,School of Technology & Computing,e-resource,Full-Stack Software Architecture,2023,0,43,39820,Slot B: 11:30 - 13:30,Year 1 (Freshman UG),3
+ACAD-LIB-1284,School of Technology & Computing,e-resource,Outdated System Architecture (PDP/VAX/Pascal),2024,0,104,31353,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),4
+ACAD-LIB-1285,School of Commerce & Finance,book,Equity Research & Portfolio Analysis,2002,1,0,3270,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),2
+ACAD-LIB-1286,Department of Social Sciences,journal,Linguistic Anthropology,2019,0,3,53894,Slot C: 13:30 - 15:30,Year 3 (Final Year UG),2
+ACAD-LIB-1287,Department of Pure & Applied Sciences,e-resource,Computational Solid State Physics,2021,0,39,29597,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),3
+ACAD-LIB-1288,Department of Pure & Applied Sciences,book,Bioinformatics & Genomic Analytics,2009,1,0,2032,Slot D: 15:30 - 17:00,Master Level (PG-1),2
+ACAD-LIB-1289,School of Technology & Computing,journal,Cryptography & Network Defense,2023,0,16,54502,Slot C: 13:30 - 15:30,Master Level (PG-1),5
+ACAD-LIB-1290,School of Technology & Computing,journal,Machine Learning & Neural Nets,2020,0,33,76915,Slot B: 11:30 - 13:30,Year 2 (Sophomore UG),3
+ACAD-LIB-1291,School of Business,book,Human Resource Systems,2024,50,0,738,Slot B: 11:30 - 13:30,Master Level (PG-2),5
+ACAD-LIB-1292,School of Business,book,Human Resource Systems,2017,26,0,3162,Slot C: 13:30 - 15:30,Master Level (PG-2),4
+ACAD-LIB-1293,School of Technology & Computing,book,Full-Stack Software Architecture,2013,1,0,2439,Slot A: 09:00 - 11:30,Year 3 (Final Year UG),1
+ACAD-LIB-1294,Department of Social Sciences,journal,Developmental Sociology,2024,0,2,37438,Slot C: 13:30 - 15:30,Year 3 (Final Year UG),1
+ACAD-LIB-1295,School of Commerce & Finance,e-resource,Direct & Indirect Taxation,2023,0,27,23594,Slot B: 11:30 - 13:30,Master Level (PG-2),4
+ACAD-LIB-1296,School of Commerce & Finance,journal,Advanced Forensic Accounting,2023,0,0,76094,Slot B: 11:30 - 13:30,Year 3 (Final Year UG),1
+ACAD-LIB-1297,School of Business,book,Consumer Behavior Analytics,2020,21,0,3149,Slot A: 09:00 - 11:30,Master Level (PG-1),3
+ACAD-LIB-1298,School of Business,journal,Corporate Valuation,2024,0,0,65817,Slot C: 13:30 - 15:30,Master Level (PG-1),1
+ACAD-LIB-1299,School of Technology & Computing,book,Quantum Algorithms,2020,11,0,542,Slot B: 11:30 - 13:30,Master Level (PG-1),3
+ACAD-LIB-1300,Department of Pure & Applied Sciences,book,Computational Solid State Physics,2017,7,0,1773,Slot D: 15:30 - 17:00,Year 2 (Sophomore UG),3

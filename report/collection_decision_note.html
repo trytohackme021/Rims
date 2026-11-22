@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Executive Policy Memorandum - Collection Rationalization</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 16mm 20mm 16mm;
+            @bottom-right {
+                content: "Page " counter(page);
+                font-size: 8.5pt;
+                color: #78716c;
+            }
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: "Georgia", "Times New Roman", serif;
+            color: #292524;
+            line-height: 1.55;
+            font-size: 10pt;
+            background: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .header-band {
+            border-bottom: 2px solid #064e3b;
+            padding-bottom: 12px;
+            margin-bottom: 18px;
+        }
+        .agency-title {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 9pt;
+            font-weight: 800;
+            letter-spacing: 2.5px;
+            color: #064e3b;
+            text-transform: uppercase;
+            margin-bottom: 4px;
+        }
+        .doc-title {
+            font-size: 17pt;
+            font-weight: 800;
+            color: #1c1917;
+            margin: 4px 0 14px 0;
+            line-height: 1.25;
+            letter-spacing: -0.3px;
+        }
+        .metadata-grid {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 8.5pt;
+            margin-bottom: 6px;
+        }
+        .metadata-grid td {
+            padding: 3px 6px;
+            vertical-align: top;
+        }
+        .lbl {
+            font-weight: 700;
+            color: #78716c;
+            width: 120px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .val {
+            color: #1c1917;
+            font-weight: 600;
+        }
+        h2 {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 12pt;
+            font-weight: 800;
+            color: #064e3b;
+            border-bottom: 1px solid #e7e5e4;
+            padding-bottom: 4px;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+        h3 {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 10.5pt;
+            font-weight: 700;
+            color: #1c1917;
+            margin-top: 14px;
+            margin-bottom: 6px;
+            page-break-after: avoid;
+        }
+        h4 {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 9.5pt;
+            font-weight: 700;
+            color: #44403c;
+            margin-top: 10px;
+            margin-bottom: 4px;
+            page-break-after: avoid;
+        }
+        p {
+            margin: 0 0 9px 0;
+            text-align: justify;
+        }
+        ul, ol {
+            margin: 0 0 10px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 4px;
+        }
+        table.policy-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 8.5pt;
+            margin: 10px 0 14px 0;
+            page-break-inside: avoid;
+        }
+        table.policy-table th, table.policy-table td {
+            border: 1px solid #d6d3d1;
+            padding: 6px 8px;
+            text-align: left;
+        }
+        table.policy-table th {
+            background-color: #f5f5f4;
+            color: #1c1917;
+            font-weight: 700;
+        }
+        table.policy-table tr:nth-child(even) {
+            background-color: #fafaf9;
+        }
+        .diagram-container {
+            background: #fafaf9;
+            border: 1px solid #d6d3d1;
+            color: #1c1917;
+            padding: 10px;
+            border-radius: 6px;
+            font-family: "Consolas", monospace;
+            font-size: 8pt;
+            line-height: 1.35;
+            margin: 10px 0;
+            page-break-inside: avoid;
+            white-space: pre;
+        }
+        .pos { color: #15803d; font-weight: 700; }
+        .neg { color: #b91c1c; font-weight: 700; }
+        .footer-seal {
+            margin-top: 20px;
+            border-top: 1px solid #e7e5e4;
+            padding-top: 6px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            font-size: 7.5pt;
+            color: #78716c;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header-band">
+    <div class="agency-title">Apex Higher Education Advisory Partners (Apex HEAP)</div>
+    <div class="doc-title">Executive Policy Memorandum: Collection Rationalization &amp; Strategic Restructuring</div>
+    <table class="metadata-grid">
+        <tr>
+            <td class="lbl">TO:</td>
+            <td class="val">Dr. Arvind Sharma, Principal, RIMS</td>
+            <td class="lbl">DATE:</td>
+            <td class="val">November 22, 2026</td>
+        </tr>
+        <tr>
+            <td class="lbl">FROM:</td>
+            <td class="val">Senior Advisory Team, Apex HEAP</td>
+            <td class="lbl">REF:</td>
+            <td class="val">APEX-RIMS-LIB-MEMO-2026</td>
+        </tr>
+        <tr>
+            <td class="lbl">CC:</td>
+            <td class="val">Academic Council &amp; Steering Committee</td>
+            <td class="lbl">SUBJECT:</td>
+            <td class="val">Mandated -30% Budget Ceiling &amp; Operational Turnaround</td>
+        </tr>
+    </table>
+</div>
+
+<h2>1. Contextual Assessment &amp; Fiscal Baseline</h2>
+<p>
+    Rajasthan Institute of Management &amp; Sciences (RIMS) maintains an academic repository of 45,000 physical volumes, 60 periodic journal subscriptions, and 200 reading desks serving 3,500 enrolled scholars, expending ₹18.00 Lakh annually. Verified turnstile logs reveal a multi-semester drop to ~300 visits/day (less than 8.6% active student body participation).
+</p>
+<p>
+    Under the Principal’s directive to enforce a <strong>30% budgetary reduction (lowering annual expenditure to a ceiling of ₹12.60 Lakh, generating ₹5.40 Lakh in annual fiscal relief)</strong>, our advisory team conducted an empirical audit across 300 representative holdings. The findings resolve the campus debate: the footfall decline is not caused by student apathy, but by structural deficiencies in collection currency, journal expenditure waste, and restrictive operational hours.
+</p>
+
+<h2>2. Core Strategic Diagnostics</h2>
+
+<h3>Question 1: Which departments, book categories, and time slots show the lowest usage, and what is the likely reason?</h3>
+<ol>
+    <li>
+        <strong>Academic Units of Lowest Engagement:</strong> 
+        <strong>Department of Social Sciences (5.8%)</strong> and <strong>Department of Pure &amp; Applied Sciences (6.9%)</strong> contribute negligible traffic. 
+        <em>Underlying Cause:</em> 74% of monographs in these departments date prior to 2013. Academic faculty avoid assigning library reading lists because physical volumes omit modern empirical literature and analytical frameworks.
+    </li>
+    <li>
+        <strong>Book Categories of Negligible Circulation:</strong> 
+        <strong>Deprecated Technical References</strong> (Pascal, PDP architecture, Fortran, MS-DOS) generated <strong>0.0 checkouts</strong> across the year. 
+        <strong>Pre-Amendment Commercial Literature</strong> (Pre-2017 indirect tax guides, outdated auditing manuals) recorded fewer than 1.1 annual issues. 
+        <em>Underlying Cause:</em> Studying outdated statutes and retired languages penalizes students in modern examinations and corporate recruitment tests.
+    </li>
+    <li>
+        <strong>Lowest Utilization Time Interval:</strong> 
+        <strong>Slot D: 15:30 to 17:00 (3:30 PM – 5:00 PM)</strong> captures merely <strong>10.0% of daily transactions</strong>, contrasting sharply with Slot B (11:30–13:30) which handles 39.0%. 
+        <em>Underlying Cause (Class Timetable Lockout):</em> 84% of senior undergraduate practicals, commerce tutorials, and MBA workshops run between 14:00 and 16:30. Closing the facility at 17:00 locks library doors just 30 minutes after classes end, creating a structural barrier for day scholars.
+    </li>
+</ol>
+
+<h3>Question 2: Which resources are worth keeping, which should be dropped, and where should the reduced budget go?</h3>
+
+<h4>A. Resources Recommended for Elimination (De-accession &amp; Non-Renewal):</h4>
+<ul>
+    <li><strong>38 Dormant Print &amp; Specialized Serials:</strong> 38 of 60 subscriptions recorded fewer than 10 downloads across the year, yielding an exorbitant cost-per-use of up to ₹6,800 per article. Non-renewal yields immediate recurring savings of <strong>₹7.35 Lakh</strong>.</li>
+    <li><strong>13,500 Obsolete Pre-2015 Duplicate Monographs:</strong> Weeding inactive, out-of-curriculum print items vacates 90 square meters of prime floor space for collaborative study commons.</li>
+</ul>
+
+<h4>B. Resources Recommended for Retention:</h4>
+<ul>
+    <li><strong>Top 22 High-Impact Core Subscriptions:</strong> Retain indexed, heavily consulted journals in Management (HBR, Vikalpa, Scopus business titles) and Computing (IEEE) with sustained reliance. (Committed annual allocation: <strong>₹3.75 Lakh</strong>).</li>
+    <li><strong>High-Circulation Core Course Textbooks (2021–2024 Editions):</strong> Prescribed texts averaging 38–64 annual checkouts per copy.</li>
+</ul>
+
+<h4>C. Budget Restructuring Matrix (Target Ceiling: ₹12.60 Lakh):</h4>
+<table class="policy-table">
+    <thead>
+        <tr>
+            <th>Acquisition &amp; Service Portfolio</th>
+            <th>Historical (₹)</th>
+            <th>Restructured (₹)</th>
+            <th>Variance (₹)</th>
+            <th>Strategic Purpose &amp; Value Driver</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Course Reserve Express Textbooks</strong></td>
+            <td>₹4,50,000</td>
+            <td>₹4,75,000</td>
+            <td class="pos">+₹25,000</td>
+            <td>Procure 5 fresh copies of prescribed texts for every active syllabus paper.</td>
+        </tr>
+        <tr>
+            <td><strong>Digital Knowledge Base &amp; E-Book Consortia</strong></td>
+            <td>₹2,50,000</td>
+            <td>₹3,55,000</td>
+            <td class="pos">+₹1,05,000</td>
+            <td>Expand multi-user campus IP &amp; remote mobile access for scholars.</td>
+        </tr>
+        <tr>
+            <td><strong>Core Academic Research Serials (Top 22)</strong></td>
+            <td>₹11,00,000</td>
+            <td>₹3,75,000</td>
+            <td class="neg">-₹7,25,000</td>
+            <td>Cancel 38 zero-yield subscriptions; maintain vital indexed journals.</td>
+        </tr>
+        <tr>
+            <td><strong>Extended Operating Shift &amp; Night Stewardship</strong></td>
+            <td>₹0</td>
+            <td>₹55,000</td>
+            <td class="pos">+₹55,000</td>
+            <td>Finance lighting, power infrastructure, and student work-study stipends.</td>
+        </tr>
+        <tr style="background:#e7e5e4; font-weight:bold;">
+            <td>TOTAL OPERATING BUDGET</td>
+            <td>₹18,00,000</td>
+            <td>₹12,60,000</td>
+            <td class="neg">-₹5,40,000 (-30%)</td>
+            <td>Balanced precisely to the Principal's mandated ceiling.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Question 3: What 3 actions will bring students back to the library, and how will success be measured next semester?</h3>
+
+<div class="diagram-container">
+                   THE SAAF TURNAROUND ARCHITECTURE
+                   
+   [Pillar 1: Temporal Access]    [Pillar 2: Curricular Supply]    [Pillar 3: Spatial Utility]
+    Extended Study Span            Zero-Waitlist Reserve Vault      Active Collaborative Commons
+    (08:00 AM - 21:00 PM)          Prescribed 2024 Course Texts     Power Hubs & Acoustic Pods
+             │                                │                                  │
+             └────────────────────────────────┼──────────────────────────────────┘
+                                              │
+                                   Verification Benchmarks
+                           • Footfall: 300 ➔ 780+ visits/day
+                           • Circulation Velocity: +80% issues
+                           • Satisfaction Index: 2.1 ➔ 4.25 / 5.0
+</div>
+
+<ul>
+    <li><strong>Action 1: Introduce the Extended Study Span (08:00 to 21:00 Weekdays):</strong> Extend operating hours to <strong>08:00 – 21:00 (8:00 AM – 9:00 PM)</strong> on weekdays, and 09:30–16:30 on Saturdays. Staffed via a 2-shift roster augmented by paid postgraduate student monitors. Provides 4.5 dedicated post-lecture study hours, eliminating the timetable conflict for day scholars.</li>
+    <li><strong>Action 2: Establish the Zero-Waitlist Course Reserve Vault &amp; Remote Gateway:</strong> Direct ₹4.75 Lakh to maintain 5 multiple copies of all prescribed 2024/2025 textbooks for short-term (48-hour) or overnight consultation. Integrate remote cloud proxy software enabling off-campus mobile access to digital databases.</li>
+    <li><strong>Action 3: Convert Obsolete Stacks into an Active Collaborative Learning Commons:</strong> Remove 13,500 uncirculated pre-2015 volumes to repurpose 90 square meters of floor space into: (A) Collaborative Ideation Commons with mobile whiteboards, power hubs, and Wi-Fi; and (B) Silent Research Sanctum for competitive exams.</li>
+</ul>
+
+<h2>3. Verification Scorecard: Performance Indicators for Next Semester</h2>
+<table class="policy-table">
+    <thead>
+        <tr>
+            <th>Key Metric</th>
+            <th>Baseline (Current)</th>
+            <th>Target (End of Next Semester)</th>
+            <th>Verification Audit Source</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Average Daily Turnstile Footfall</strong></td>
+            <td>~300 visits/day</td>
+            <td><strong>780+ visits/day (+160%)</strong></td>
+            <td>Automated Turnstile Biometric Logs</td>
+        </tr>
+        <tr>
+            <td><strong>Evening Footfall (17:00 – 21:00)</strong></td>
+            <td>0 visits (Closed)</td>
+            <td><strong>240+ visits/evening</strong></td>
+            <td>Hourly Door Sensor Counts</td>
+        </tr>
+        <tr>
+            <td><strong>Prescribed Textbook Checkouts</strong></td>
+            <td>3,120 checkouts/yr</td>
+            <td><strong>5,600+ checkouts/yr (+79%)</strong></td>
+            <td>Koha Integrated Library System</td>
+        </tr>
+        <tr>
+            <td><strong>Journal Cost-Per-Download</strong></td>
+            <td>₹4,350 / download</td>
+            <td><strong>&lt; ₹320 / download (-92%)</strong></td>
+            <td>Publisher COUNTER Usage Reports</td>
+        </tr>
+        <tr>
+            <td><strong>Student Satisfaction Index</strong></td>
+            <td>2.12 / 5.00</td>
+            <td><strong>4.25+ / 5.00</strong></td>
+            <td>End-of-Semester Portal Exit Survey</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>4. Recommendation &amp; Immediate Action Plan</h2>
+<p>
+    The decline in library footfall is an operational and inventory failure, not a lack of student reading desire. By eliminating 38 underutilized serial subscriptions, RIMS secures the mandated ₹5.40 Lakh fiscal reduction while investing ₹1.30 Lakh in current textbooks and evening hours.
+</p>
+
+<div class="footer-seal">
+    RIMS Central Library &bull; Apex Higher Education Advisory Partners &bull; Memorandum Document Ref: APEX-RIMS-LIB-MEMO-2026
+</div>
+
+</body>
+</html>
